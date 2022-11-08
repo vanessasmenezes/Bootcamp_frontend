@@ -1,7 +1,5 @@
-# projetos_frontend
+# Bootcamp com tecnologias front-end
 
 Digital Innovation One
  
-Bootcamp com tecnologias front-end
-
 Javascript / CSS /  HTML /  AWS /  Angular
