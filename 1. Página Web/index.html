@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML na prática</title>
+  </head>
+  <body>
+    <h1 id="inicio">
+   <strong>Criando uma página na web somente com HTML</strong>
+    </h1>
+    <hr />
+    <h2><u>Índice:</u></h2>
+    <ol>
+      <li><a href="#1">Ferramentas utilizadas</a></li>
+      <li><a href="#2">Usando o Inspetor de Elementos</a></li>
+      <li><a href="#3">Estrutura básica do HTML</a></li>
+      <li><a href="#4">Falando sobre Tags</a></li>
+      <li><a href="#5">Atributos básicos</a></li>
+      <li><a href="#6">Textos</a></li>
+      <li><a href="#7">Listas ordenadas e não ordenadas</a></li>
+      <li><a href="#8">Links</a></li>
+    </ol>
+
+    <h2 id="1"><u>1. Ferramentas utilizadas</u><small></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Para preparar o ambiente e começar a desenvolver o site é necessário abrir
+      o Google Chrome e baixar:
+    </p>
+    <ul>
+      <li><i>Visual Studio Code</i></li>
+      <li><i>Live Server </i>(VSC)</li>
+    </ul>
+  
+
+    <h2 id="2"><u>2. Usando o Inspetor de Elementos</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Realizado através do comando <sup><mark>F12</mark></sup>ou através do comando
+      <sup> Mais ferramentas - Ferramentas do desenvolvedor</sup>na barra
+      superior á direita da tela.
+    </p>
+    <p>Funcionalidade para realização de estudo da página.</p>
+    <p>
+      Através do inspetor de elementos é possível visualizar como a página foi
+      criada, com sua estrutura HTML e CSS.
+    </p>
+    <p>
+      É possível ainda, visualizar toda a formatação do elemento e alterá-lo sem
+      alterar definitivamente o elemento inspecionado.
+    </p>
+
+    <h2 id="3"><u>3. Estrutura básica do HTML</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>A página principal do site é sempre chamada de <i>index.html</i>.</p>
+    
+      <p>HTML consiste em três partes:</p>
+      <ul>
+        <li><u>Tag html</u></li>
+        <li><u>Tag head</u></li>
+        <li><u>Tag body</u></li>
+      </ul>
+      <p>Dentro da <u>Tag html</u> tenho a <u>Tag head </u>(cabeçalho) e a <u>Tag body</u> (corpo).</p>
+      <p>O que estiver dentro da <u>Tag body</u> é o que vai aparecer para o usuário.</p>
+      <p>E o que estiver dentro da <u>Tag head</u> são elementos que serão carregados antes
+      de exibir para o usuário.</p>
+      <p> Dentro da <u>Tag head</u> temos a <u>Tag title</u> que é o título da página que vamos usar, ou seja, o nome da aba de navegação visualizada.</p>
+      <blockquote>É possível a visualização da página que está sendo criada, através do <i>Live Server </i>ao clicar com o botão direito no <i>index.html</i> localizada na pasta do <i>Visual Studio Code</i>.</blockquote>
+
+    <h2 id="4"><u>4. Falando sobre Tags</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>São milhares de tipos de Tags e cada uma com sua função.</p>
+    <p>Ao abrir um Tag é necessário fechar.</p>
+    <p>Quando abro uma Tag o <i>Visual Studio Code</i> fecha automaticamnete essa tag. </p>
+    <p>Exemplos de Tags que necessitam de Tag de fechamento:</p>
+    <ul>
+      <li><u>Tag i</u> - Formatação em itálico</li>
+      <li><u>Tag strong </u> - Formatação em negrito</li>
+    </ul>
+     <p>É possivel utilizar mais de uma Tag de formatação ao mesmo tempo no mesmo elemento.</p>
+      
+      <p> Porém existem Tags que não precisam de fechamento. Esses tipos de Tags, nela mesma tem uma barra ao final.</p>
+
+      <p>Exemplos de Tags de autofechamento:
+        <ul>
+        <li><u>Tag input</u> - Campo interativo</li>
+        <li><u>Tag img </u> - Inclusão de imagem</li>
+        </ul>
+      </p>
+    <h2 id="5"><u>5. Atributos básicos</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Atributos são propriedades que uma Tag podem ter.</p>
+    <p>Existem atributos mais globais, genéricos (todas as Tags vão ter )
+e existem atributos que são mais específicos de cada Tag.</p>
+      <p> Exemplo de atributos genéricos:
+        <ul>
+          <li><u>id</u> - Identificador (#) - Nenhum outro elemnto pode ter o mesmo <u>id</u>.</li>
+          <li><u>class</u> -classificação de um elemento ( . ) - Mais de um elemento pode ter a mesmo <u>class</u>.</li>
+          <li style="color:coral;"><u>style</u> - Comandos <u>css</u> - formatação direto no elemento.</li>
+        </ul>
+          </p>
+       <p> Exemplo de atributos específicos de cada Tag:
+            <ul>
+              <li><u>type</u> - Onde se coloca o tipo do campo.</li>
+              <p> Específico da <u> Tag input</u>  - Campo utilizado em formulário.
+                Valor da propriedade: <u>number</u>.</p>
+                <p> Ex: input type='number' </p>
+                <p> Ex: input type='text'</p>
+                
+              <li><u>src</u> - Onde coloca o endereço da imagem.</li>
+              <p> Específico da <u> Tag img</u>.</p>
+                <p> Ex:  img src="http......"</p>
+                <p> Ex:  img width="250" src="https..... (possível incluir a largura da imagem)</p>
+              </ul>
+              </p>
+ 
+    <h2 id="6"><u>6. Textos</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      Principais Tags específicas para textos (tipografia HTML):
+      <ul>
+        <li><u>Tag h1 até h6</u> - Título, sub-título.....</li>
+        <li><u>Tag p </u> - Parágrafos</li>
+        <li><u>Tag blockquote </u> - Citação - destaque-se do texto.</li>
+        </ul>
+    </p>
+
+    <h2 id="7"><u>7. Listas ordenadas e não ordenadas</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>São dois os tipos de listas:<ul>
+      <li><u>Tag ol</u> - Lista ordenada numérica - 1.2.3.4.5.6......</li>
+      <li><u>Tag ul </u> - Lista não ordenada apenas com marcações.</li>
+      </ul>
+  </p>
+  <p>
+    Porém tanto na lista ordenada, como na não ordenada é preciso implementar a <u>Tag li</u> (tag filha - para cada item).
+  </p>
+
+    <h2 id="8"><u>8. Links</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+      A <u>Tag a</u> é uma Tag âncora. Ela esta ancorando em algum lugar
+    </p>
+    <p>
+     A <u>href</u> é um atributo específico da <u>Tag a</u> para fazer referência a uma URL externa.
+    </p>
+    <p>O <u>target</u> é outro atributo específico  da <u>Tag a</u> para abrir em outra aba de navegação 9não na página principal).
+    </p>
+  <p>
+  O <u>target</u> possue o valor  "<u>self</u>" - comportamento padrão - abre nele mesmo e o "<u>blank</u>" - ele naturamlente irá abrir em outra aba.
+  </p>
+  <p>Outro atributo é o <u>title</u> que abre um balão de informação quando mouse estiver sobre o link.</p>
+  <p> Ex: a href = "http......"  title = "Clique aqui e confira"  target = " blanck"> Youtube a> </p>
+  
+    <h2 id="ref"><u> Referências:</u></h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+      <li><a href="https://www.w3schools.com/TAgs/tag_html.asp" target="_blank">www.w3schools.com</a></li>
+      <li><a href="https://www.brasilcode.com.br/tags-html-conhecas-as-principais-e-mais-usadas/" target="_blank">www.brasilcode.com.br</a></li>
+      <li><a href="https://www.codigofonte.com.br/artigos/principais-tags-de-html" target="_blank">www.codigofonte.com.br</a></li>
+      <li><a href="https://www.youtube.com/shorts/hpGK0rW8TXo" target="_blank">Canal youtube - Diogo Mainardes</a></li>
+      
+    </ul>
+  </body>
+</html>
