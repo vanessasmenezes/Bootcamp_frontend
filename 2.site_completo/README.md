@@ -1,10 +1,11 @@
-Desafio de criar um site. Os temas que deverão ser abordados são:
+### Criando um site com os temas:
 - Formulários
 - Estruturação e formatação de texto
 - Mídias
 - Tabelas
 
-Site de uma clínica médica com o seguinte menu de navegação:
+### Site de uma clínica médica com o seguinte menu de navegação:
+
     - Página Principal
     - Sobre a clínica
     - Horário de Atendimento
